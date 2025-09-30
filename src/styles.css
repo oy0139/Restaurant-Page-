@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('GreatVibes-Regular.woff2') format('woff2'),
+        url('GreatVibes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+   margin: 0;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: "Great Vibes", serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+   background-color: green;
+}
+
+#content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 300px;
+    background-image: linear-gradient(yellow, red);
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 10px orange;
+    border-color: transparent;
+}
+
+#content > div {
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+
+.headerSection, .menu-title, .food-header, .about-title, .about-section-heading {
+    font-size: 24px;
+}
+
+
+button {
+    background-color: #A31EA8;
+    padding: 10px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6E1EA8;
+}
+
+button:active {
+    background-color: #A31EA8;
+    transform: translateY(1px);
+}
+
